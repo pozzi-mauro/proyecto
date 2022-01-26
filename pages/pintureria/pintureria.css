@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    color: beige;
+    font-size: 100px;
+    text-align: center;
+    font-family: monospace;
+     
+}
+  .encabezado {
+    background-image: linear-gradient(#021b79, #0575e6);
+    padding: 20px;
+ }
+
+.menu_list{
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+.list_item{
+    display: inline-block;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.link:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: cornsilk;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.link:hover:after{
+    width: 100%;
+    right: 0;
+    color: cornsilk;
+} 
+nav{
+    justify-content: center;
+    color: cornsilk;
+}
+.encabezad2{
+    background-color: white;
+    color: #6fb1fc;
+}
+.tablacolores{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap:50px;
+    text-align: center;
+
+}
+.pinturaprecio{
+    background-color: black;
+    color: blanchedalmond;
+}
+.rojo{
+    background-color: red;
+    color: cornsilk;
+}
+
+.azul{
+    background-color: blue;
+    color: cornsilk;
+}
+.verde{
+    background-color: green;
+    color: cornsilk;
+}
+.amarillo{
+    background-color: yellow;
+    color: cornsilk;
+}
+.negro{
+    background-color: black;
+    color: cornsilk;
+}
+.segundoencabezado{
+    background-color: white;
+    color: #6fb1fc;
+}
+footer{
+  
+    background-image: linear-gradient(#021b79, #0575e6);
+    position: relative;
+  
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+footer ul li{
+    color: cornsilk;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.icono:hover{
+    transform: translate(10px, 5px)
+ 
+   
+}
+.contacto{
+    color: cornsilk;
+}

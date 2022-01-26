@@ -1,0 +1,12 @@
+@import"./variables";
+
+.tituloSecundario{
+    @if $color == azul {
+        color: $colorPrincipal;
+        
+    } @else if $color == rojo{
+        color:$colorSecundario;
+    } @else{
+        color: $colorLetra;
+    }
+}

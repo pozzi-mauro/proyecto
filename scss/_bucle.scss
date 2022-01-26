@@ -1,0 +1,6 @@
+@import"./variables";
+
+@for $i from 1 to 5 {
+    .numero#{$i} {font-size: $alturaFuente + ($i+10px);}
+    
+}

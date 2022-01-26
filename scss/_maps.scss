@@ -1,0 +1,7 @@
+@import"./variables";
+
+@each $dante, $color in $redSocial {
+    .social-#{$dante}{
+        background-color: $color;
+    }
+}
